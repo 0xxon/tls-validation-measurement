@@ -1,0 +1,17 @@
+Tools for validating certificate chains against using NSS.
+
+nss.patch: 
+  Small patch against nss, which disables the crl issuer cache. This makes
+  it possible to check large volumes of chains, without the results being
+  tainted because old certificates are still being held in memory
+
+countCrlSetEntries.pl
+  Count the entries in a crl set as created by https://github.com/agl/crlset-tools
+
+verifyChains.pl
+  Mass-checking of certificate chains using NSS.
+  Requires a patched version of NSS using nss.patch and the mozilla-functions branch
+  of the NSS bindings at https://github.com/0xxon/crypt-nss.
+
+  Please see the comments in the script - it describes the input file format as well
+  as the locations where the certificates files are expected to be.
