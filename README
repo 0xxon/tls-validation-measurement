@@ -5,6 +5,11 @@ nss.patch:
   it possible to check large volumes of chains, without the results being
   tainted because old certificates are still being held in memory
 
+analyze_bad_cert_domain.pl
+  Analyze the reasons for certificate<->hostname mismatches in greater detail.
+  Requires the dev-hostname branch of the NSS bindings at
+  https://github.com/0xxon/crypt-nss.
+
 countCrlSetEntries.pl
   Count the entries in a crl set as created by https://github.com/agl/crlset-tools
 

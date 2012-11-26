@@ -11,7 +11,7 @@ use warnings;
 
 
 
-#http://github.com/amannb/crypt-nss Use the Mozilla Branch
+#http://github.com/amannb/crypt-nss Use the dev-hostname branch
 use NSS;
 use Crypt::X509;
 
