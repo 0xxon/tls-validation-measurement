@@ -24,7 +24,7 @@ use warnings;
 # The directory intermediates has to contain all valid intermediate certificates
 # that should be preloaded into nss (hence, the cached intermediates).
 #
-# Use the NSS perl bindings at https://github.com/amannb/crypt-nss/tree/mozilla-functions (branch mozilla-functions).
+# Use the NSS perl bindings at https://github.com/amannb/perl-nss/tree/mozilla-functions (branch mozilla-functions).
 # Please note that you also have to patch nss with the provided patch.
 
 # to verify chains without caching, disable the intermediate loading

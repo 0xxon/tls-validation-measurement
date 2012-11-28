@@ -8,7 +8,7 @@ nss.patch:
 analyze_bad_cert_domain.pl
   Analyze the reasons for certificate<->hostname mismatches in greater detail.
   Requires the dev-hostname branch of the NSS bindings at
-  https://github.com/0xxon/crypt-nss.
+  https://github.com/0xxon/perl-nss.
 
 countCrlSetEntries.pl
   Count the entries in a crl set as created by https://github.com/agl/crlset-tools
@@ -16,7 +16,7 @@ countCrlSetEntries.pl
 verifyChains.pl
   Mass-checking of certificate chains using NSS.
   Requires a patched version of NSS using nss.patch and the mozilla-functions branch
-  of the NSS bindings at https://github.com/0xxon/crypt-nss.
+  of the NSS bindings at https://github.com/0xxon/perl-nss.
 
   Please see the comments in the script - it describes the input file format as well
   as the locations where the certificates files are expected to be.

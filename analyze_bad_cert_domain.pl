@@ -11,7 +11,7 @@ use warnings;
 
 
 
-#http://github.com/amannb/crypt-nss Use the dev-hostname branch
+#http://github.com/amannb/perl-nss Use the dev-hostname branch
 use NSS;
 use Crypt::X509;
 
